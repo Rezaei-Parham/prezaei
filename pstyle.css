@@ -1,0 +1,61 @@
+
+    @font-face { font-family: fuzzy; src: url('FuzzyBubbles-Regular.ttf'); } 
+    img {
+           
+            -webkit-filter: drop-shadow(7px 7px 7px #666666);
+            filter: drop-shadow(5px 5px 5px #666666);
+          }
+    body {
+      
+      background-color: #3AAFA9;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    img {
+      border-radius: 50%;
+    }
+    .checked {
+      color: orange;
+    }
+    .footer {
+       position:fixed;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 12px;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #2b7a78;
+       color: #feffff;
+       
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #17252a;
+    }
+    
+    .topnav a:hover{
+        background-color: #def2f1;
+      color: #17252a;
+    }
+    .topnav a {
+      float: left;
+      color: #def2f1;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover{
+        background-color: #def2f1;
+      color: #17252a;
+    }
+    .topnav a.right:hover{
+        background-color: #def2f1;
+      color: #17252a;
+    }
+    .topnav a.right {
+    float: right;
+      text-align: center;
+      color: #def2f1;
+    }
+    
